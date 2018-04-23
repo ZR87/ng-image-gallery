@@ -10,7 +10,7 @@
 	};
 
 	angular
-	.module('thatisuday.ng-image-gallery', ['ngAnimate'])
+	.module('ngImageGallery', ['ngAnimate'])
 	.provider('ngImageGalleryOpts', function(){
 		var defOpts = {
 			thumbnails  	:   true,
